@@ -17,7 +17,7 @@ describe('<ChromeBoisDomain />', () => {
   const drawChromeBoiAtCoords = sinon.stub(canvasHelpers, "drawChromeBoiAtCoords")
   const toggleCycling = sinon.stub(canvasHelpers, "toggleCycling")
   const resize = sinon.stub(canvasHelpers, "resize")
-  
+  cl
   let comp, instance;
   
   beforeEach(() => {
